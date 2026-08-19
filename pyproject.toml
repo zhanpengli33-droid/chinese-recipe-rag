@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chinese-recipe-rag"
+version = "0.1.0"
+description = "An offline Chinese recipe RAG system with hybrid retrieval, RRF reranking, evaluation, and streaming APIs."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "Zhanpeng Li" }]
+dependencies = [
+  "fastapi>=0.116,<1.0",
+  "pydantic>=2.11,<3.0",
+  "uvicorn>=0.35,<1.0",
+]
+
+[project.optional-dependencies]
+full = [
+  "faiss-cpu>=1.11,<2.0",
+  "numpy>=2.0,<3.0",
+  "sentence-transformers>=5.0,<6.0",
+]
+dev = [
+  "httpx>=0.28,<1.0",
+  "pytest>=8.4,<9.0",
+]
+
+[project.scripts]
+recipe-rag-eval = "recipe_rag.evaluation:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+recipe_rag = ["data/*.json"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

@@ -1,0 +1,962 @@
+[
+  {
+    "id": "query-001",
+    "query": "我想吃鸡胸肉，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-001"
+    ]
+  },
+  {
+    "id": "query-002",
+    "query": "我想吃山药，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-038"
+    ]
+  },
+  {
+    "id": "query-003",
+    "query": "我想吃冬瓜，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-075"
+    ]
+  },
+  {
+    "id": "query-004",
+    "query": "我想吃南瓜，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-112"
+    ]
+  },
+  {
+    "id": "query-005",
+    "query": "我想吃芹菜，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-149"
+    ]
+  },
+  {
+    "id": "query-006",
+    "query": "我想吃白菜，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-186"
+    ]
+  },
+  {
+    "id": "query-007",
+    "query": "我想吃鲈鱼，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-223"
+    ]
+  },
+  {
+    "id": "query-008",
+    "query": "我想吃虾仁，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-260"
+    ]
+  },
+  {
+    "id": "query-009",
+    "query": "我想吃菜花，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-297"
+    ]
+  },
+  {
+    "id": "query-010",
+    "query": "我想吃香菇，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-011"
+    ]
+  },
+  {
+    "id": "query-011",
+    "query": "我想吃莲藕，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-048"
+    ]
+  },
+  {
+    "id": "query-012",
+    "query": "我想吃鸡蛋，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-085"
+    ]
+  },
+  {
+    "id": "query-013",
+    "query": "我想吃西红柿，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-122"
+    ]
+  },
+  {
+    "id": "query-014",
+    "query": "我想吃土豆，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-159"
+    ]
+  },
+  {
+    "id": "query-015",
+    "query": "我想吃茄子，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-196"
+    ]
+  },
+  {
+    "id": "query-016",
+    "query": "我想吃豆腐，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-233"
+    ]
+  },
+  {
+    "id": "query-017",
+    "query": "我想吃排骨，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-270"
+    ]
+  },
+  {
+    "id": "query-018",
+    "query": "我想吃牛腩，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-307"
+    ]
+  },
+  {
+    "id": "query-019",
+    "query": "我想吃五花肉，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-021"
+    ]
+  },
+  {
+    "id": "query-020",
+    "query": "我想吃鸡胸肉，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-058"
+    ]
+  },
+  {
+    "id": "query-021",
+    "query": "我想吃山药，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-095"
+    ]
+  },
+  {
+    "id": "query-022",
+    "query": "我想吃冬瓜，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-132"
+    ]
+  },
+  {
+    "id": "query-023",
+    "query": "我想吃南瓜，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-169"
+    ]
+  },
+  {
+    "id": "query-024",
+    "query": "我想吃芹菜，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-206"
+    ]
+  },
+  {
+    "id": "query-025",
+    "query": "我想吃白菜，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-243"
+    ]
+  },
+  {
+    "id": "query-026",
+    "query": "我想吃鲈鱼，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-280"
+    ]
+  },
+  {
+    "id": "query-027",
+    "query": "我想吃虾仁，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-317"
+    ]
+  },
+  {
+    "id": "query-028",
+    "query": "我想吃菜花，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-031"
+    ]
+  },
+  {
+    "id": "query-029",
+    "query": "我想吃香菇，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-068"
+    ]
+  },
+  {
+    "id": "query-030",
+    "query": "我想吃莲藕，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-105"
+    ]
+  },
+  {
+    "id": "query-031",
+    "query": "我想吃鸡蛋，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-142"
+    ]
+  },
+  {
+    "id": "query-032",
+    "query": "我想吃西红柿，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-179"
+    ]
+  },
+  {
+    "id": "query-033",
+    "query": "我想吃土豆，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-216"
+    ]
+  },
+  {
+    "id": "query-034",
+    "query": "我想吃茄子，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-253"
+    ]
+  },
+  {
+    "id": "query-035",
+    "query": "我想吃豆腐，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-290"
+    ]
+  },
+  {
+    "id": "query-036",
+    "query": "我想吃排骨，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-004"
+    ]
+  },
+  {
+    "id": "query-037",
+    "query": "我想吃牛腩，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-041"
+    ]
+  },
+  {
+    "id": "query-038",
+    "query": "我想吃五花肉，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-078"
+    ]
+  },
+  {
+    "id": "query-039",
+    "query": "我想吃鸡胸肉，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-115"
+    ]
+  },
+  {
+    "id": "query-040",
+    "query": "我想吃山药，推荐一道家常菜",
+    "query_type": "recommendation",
+    "expected_recipe_ids": [
+      "recipe-152"
+    ]
+  },
+  {
+    "id": "query-041",
+    "query": "请问酱香冬瓜需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-189"
+    ]
+  },
+  {
+    "id": "query-042",
+    "query": "请问炖煮南瓜需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-226"
+    ]
+  },
+  {
+    "id": "query-043",
+    "query": "请问酸辣芹菜需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-263"
+    ]
+  },
+  {
+    "id": "query-044",
+    "query": "请问砂锅白菜需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-300"
+    ]
+  },
+  {
+    "id": "query-045",
+    "query": "请问红烧鲈鱼需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-014"
+    ]
+  },
+  {
+    "id": "query-046",
+    "query": "请问蒜香虾仁需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-051"
+    ]
+  },
+  {
+    "id": "query-047",
+    "query": "请问干锅菜花需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-088"
+    ]
+  },
+  {
+    "id": "query-048",
+    "query": "请问家常香菇需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-125"
+    ]
+  },
+  {
+    "id": "query-049",
+    "query": "请问椒盐莲藕需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-162"
+    ]
+  },
+  {
+    "id": "query-050",
+    "query": "请问清蒸鸡蛋需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-199"
+    ]
+  },
+  {
+    "id": "query-051",
+    "query": "请问麻辣西红柿需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-236"
+    ]
+  },
+  {
+    "id": "query-052",
+    "query": "请问孜然土豆需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-273"
+    ]
+  },
+  {
+    "id": "query-053",
+    "query": "请问凉拌茄子需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-310"
+    ]
+  },
+  {
+    "id": "query-054",
+    "query": "请问清炒豆腐需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-024"
+    ]
+  },
+  {
+    "id": "query-055",
+    "query": "请问香煎排骨需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-061"
+    ]
+  },
+  {
+    "id": "query-056",
+    "query": "请问糖醋牛腩需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-098"
+    ]
+  },
+  {
+    "id": "query-057",
+    "query": "请问葱油五花肉需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-135"
+    ]
+  },
+  {
+    "id": "query-058",
+    "query": "请问酱香鸡胸肉需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-172"
+    ]
+  },
+  {
+    "id": "query-059",
+    "query": "请问清蒸山药需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-209"
+    ]
+  },
+  {
+    "id": "query-060",
+    "query": "请问麻辣冬瓜需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-246"
+    ]
+  },
+  {
+    "id": "query-061",
+    "query": "请问孜然南瓜需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-283"
+    ]
+  },
+  {
+    "id": "query-062",
+    "query": "请问凉拌芹菜需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-320"
+    ]
+  },
+  {
+    "id": "query-063",
+    "query": "请问清炒白菜需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-034"
+    ]
+  },
+  {
+    "id": "query-064",
+    "query": "请问香煎鲈鱼需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-071"
+    ]
+  },
+  {
+    "id": "query-065",
+    "query": "请问糖醋虾仁需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-108"
+    ]
+  },
+  {
+    "id": "query-066",
+    "query": "请问葱油菜花需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-145"
+    ]
+  },
+  {
+    "id": "query-067",
+    "query": "请问酱香香菇需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-182"
+    ]
+  },
+  {
+    "id": "query-068",
+    "query": "请问炖煮莲藕需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-219"
+    ]
+  },
+  {
+    "id": "query-069",
+    "query": "请问酸辣鸡蛋需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-256"
+    ]
+  },
+  {
+    "id": "query-070",
+    "query": "请问砂锅西红柿需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-293"
+    ]
+  },
+  {
+    "id": "query-071",
+    "query": "请问红烧土豆需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-007"
+    ]
+  },
+  {
+    "id": "query-072",
+    "query": "请问蒜香茄子需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-044"
+    ]
+  },
+  {
+    "id": "query-073",
+    "query": "请问干锅豆腐需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-081"
+    ]
+  },
+  {
+    "id": "query-074",
+    "query": "请问家常排骨需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-118"
+    ]
+  },
+  {
+    "id": "query-075",
+    "query": "请问椒盐牛腩需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-155"
+    ]
+  },
+  {
+    "id": "query-076",
+    "query": "请问清蒸五花肉需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-192"
+    ]
+  },
+  {
+    "id": "query-077",
+    "query": "请问麻辣鸡胸肉需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-229"
+    ]
+  },
+  {
+    "id": "query-078",
+    "query": "请问酸辣山药需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-266"
+    ]
+  },
+  {
+    "id": "query-079",
+    "query": "请问砂锅冬瓜需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-303"
+    ]
+  },
+  {
+    "id": "query-080",
+    "query": "请问红烧南瓜需要什么食材",
+    "query_type": "ingredients",
+    "expected_recipe_ids": [
+      "recipe-017"
+    ]
+  },
+  {
+    "id": "query-081",
+    "query": "麻烦告诉我蒜香芹菜怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-054"
+    ]
+  },
+  {
+    "id": "query-082",
+    "query": "麻烦告诉我干锅白菜怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-091"
+    ]
+  },
+  {
+    "id": "query-083",
+    "query": "麻烦告诉我家常鲈鱼怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-128"
+    ]
+  },
+  {
+    "id": "query-084",
+    "query": "麻烦告诉我椒盐虾仁怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-165"
+    ]
+  },
+  {
+    "id": "query-085",
+    "query": "麻烦告诉我清蒸菜花怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-202"
+    ]
+  },
+  {
+    "id": "query-086",
+    "query": "麻烦告诉我麻辣香菇怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-239"
+    ]
+  },
+  {
+    "id": "query-087",
+    "query": "麻烦告诉我孜然莲藕怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-276"
+    ]
+  },
+  {
+    "id": "query-088",
+    "query": "麻烦告诉我凉拌鸡蛋怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-313"
+    ]
+  },
+  {
+    "id": "query-089",
+    "query": "麻烦告诉我清炒西红柿怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-027"
+    ]
+  },
+  {
+    "id": "query-090",
+    "query": "麻烦告诉我香煎土豆怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-064"
+    ]
+  },
+  {
+    "id": "query-091",
+    "query": "麻烦告诉我糖醋茄子怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-101"
+    ]
+  },
+  {
+    "id": "query-092",
+    "query": "麻烦告诉我葱油豆腐怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-138"
+    ]
+  },
+  {
+    "id": "query-093",
+    "query": "麻烦告诉我酱香排骨怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-175"
+    ]
+  },
+  {
+    "id": "query-094",
+    "query": "麻烦告诉我炖煮牛腩怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-212"
+    ]
+  },
+  {
+    "id": "query-095",
+    "query": "麻烦告诉我酸辣五花肉怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-249"
+    ]
+  },
+  {
+    "id": "query-096",
+    "query": "麻烦告诉我砂锅鸡胸肉怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-286"
+    ]
+  },
+  {
+    "id": "query-097",
+    "query": "麻烦告诉我凉拌山药怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-323"
+    ]
+  },
+  {
+    "id": "query-098",
+    "query": "麻烦告诉我清炒冬瓜怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-037"
+    ]
+  },
+  {
+    "id": "query-099",
+    "query": "麻烦告诉我香煎南瓜怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-074"
+    ]
+  },
+  {
+    "id": "query-100",
+    "query": "麻烦告诉我糖醋芹菜怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-111"
+    ]
+  },
+  {
+    "id": "query-101",
+    "query": "麻烦告诉我葱油白菜怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-148"
+    ]
+  },
+  {
+    "id": "query-102",
+    "query": "麻烦告诉我酱香鲈鱼怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-185"
+    ]
+  },
+  {
+    "id": "query-103",
+    "query": "麻烦告诉我炖煮虾仁怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-222"
+    ]
+  },
+  {
+    "id": "query-104",
+    "query": "麻烦告诉我酸辣菜花怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-259"
+    ]
+  },
+  {
+    "id": "query-105",
+    "query": "麻烦告诉我砂锅香菇怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-296"
+    ]
+  },
+  {
+    "id": "query-106",
+    "query": "麻烦告诉我红烧莲藕怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-010"
+    ]
+  },
+  {
+    "id": "query-107",
+    "query": "麻烦告诉我蒜香鸡蛋怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-047"
+    ]
+  },
+  {
+    "id": "query-108",
+    "query": "麻烦告诉我干锅西红柿怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-084"
+    ]
+  },
+  {
+    "id": "query-109",
+    "query": "麻烦告诉我家常土豆怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-121"
+    ]
+  },
+  {
+    "id": "query-110",
+    "query": "麻烦告诉我椒盐茄子怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-158"
+    ]
+  },
+  {
+    "id": "query-111",
+    "query": "麻烦告诉我清蒸豆腐怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-195"
+    ]
+  },
+  {
+    "id": "query-112",
+    "query": "麻烦告诉我麻辣排骨怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-232"
+    ]
+  },
+  {
+    "id": "query-113",
+    "query": "麻烦告诉我孜然牛腩怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-269"
+    ]
+  },
+  {
+    "id": "query-114",
+    "query": "麻烦告诉我凉拌五花肉怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-306"
+    ]
+  },
+  {
+    "id": "query-115",
+    "query": "麻烦告诉我清炒鸡胸肉怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-020"
+    ]
+  },
+  {
+    "id": "query-116",
+    "query": "麻烦告诉我蒜香山药怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-057"
+    ]
+  },
+  {
+    "id": "query-117",
+    "query": "麻烦告诉我干锅冬瓜怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-094"
+    ]
+  },
+  {
+    "id": "query-118",
+    "query": "麻烦告诉我家常南瓜怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-131"
+    ]
+  },
+  {
+    "id": "query-119",
+    "query": "麻烦告诉我椒盐芹菜怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-168"
+    ]
+  },
+  {
+    "id": "query-120",
+    "query": "麻烦告诉我清蒸白菜怎么做一下",
+    "query_type": "steps",
+    "expected_recipe_ids": [
+      "recipe-205"
+    ]
+  }
+]
